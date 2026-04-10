@@ -13,15 +13,11 @@ BookIt es una aplicación web para la gestión de servicios y reservas de citas.
 ## Cómo ejecutar
 
 1. Clonar este proyecto.
-2. Copiar el archivo `.env.example` y renombrarlo a `.env`:
-   ```bash
-   cp .env.example .env
-   ```
-3. Iniciar todos los contenedores usando Docker Compose:
+2. Iniciar todos los contenedores usando Docker Compose:
    ```bash
    docker compose up -d
    ```
-4. Esperar unos segundos para que los servicios se inicialicen, la base de datos se cree y se inserten los datos por defecto.
+3. Esperar unos segundos para que los servicios se inicialicen, la base de datos se cree y se inserten los datos por defecto.
 
 ## URLs de Acceso
 
